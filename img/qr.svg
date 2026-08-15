@@ -1,0 +1,49 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <rect width="300" height="300" fill="#ffffff" rx="20"/>
+  <!-- Outer Finder 1 -->
+  <rect x="30" y="30" width="70" height="70" fill="#1c0704" rx="10"/>
+  <rect x="45" y="45" width="40" height="40" fill="#ffffff" rx="5"/>
+  <rect x="55" y="55" width="20" height="20" fill="#f59e0b" rx="3"/>
+  <!-- Outer Finder 2 -->
+  <rect x="200" y="30" width="70" height="70" fill="#1c0704" rx="10"/>
+  <rect x="215" y="45" width="40" height="40" fill="#ffffff" rx="5"/>
+  <rect x="225" y="55" width="20" height="20" fill="#f59e0b" rx="3"/>
+  <!-- Outer Finder 3 -->
+  <rect x="30" y="200" width="70" height="70" fill="#1c0704" rx="10"/>
+  <rect x="45" y="215" width="40" height="40" fill="#ffffff" rx="5"/>
+  <rect x="55" y="225" width="20" height="20" fill="#f59e0b" rx="3"/>
+  <!-- QR Pattern Grid -->
+  <rect x="115" y="35" width="20" height="20" fill="#1c0704" rx="3"/>
+  <rect x="145" y="35" width="15" height="15" fill="#1c0704" rx="3"/>
+  <rect x="170" y="40" width="18" height="18" fill="#1c0704" rx="3"/>
+  <rect x="120" y="65" width="15" height="25" fill="#1c0704" rx="3"/>
+  <rect x="145" y="70" width="35" height="15" fill="#1c0704" rx="3"/>
+  
+  <rect x="35" y="115" width="25" height="15" fill="#1c0704" rx="3"/>
+  <rect x="70" y="115" width="20" height="20" fill="#1c0704" rx="3"/>
+  <rect x="100" y="110" width="30" height="30" fill="#1c0704" rx="4"/>
+  <rect x="140" y="100" width="40" height="40" fill="#f59e0b" rx="8"/>
+  <!-- Center Music Icon -->
+  <circle cx="160" cy="120" r="14" fill="#1c0704"/>
+  <text x="160" y="125" font-size="14" text-anchor="middle" fill="#ffffff">🪗</text>
+
+  <rect x="190" y="115" width="25" height="20" fill="#1c0704" rx="3"/>
+  <rect x="225" y="110" width="45" height="15" fill="#1c0704" rx="3"/>
+  <rect x="240" y="135" width="30" height="30" fill="#1c0704" rx="3"/>
+
+  <rect x="115" y="155" width="30" height="20" fill="#1c0704" rx="3"/>
+  <rect x="155" y="150" width="25" height="35" fill="#1c0704" rx="3"/>
+  <rect x="190" y="145" width="40" height="20" fill="#1c0704" rx="3"/>
+
+  <rect x="115" y="190" width="20" height="45" fill="#1c0704" rx="3"/>
+  <rect x="145" y="195" width="40" height="20" fill="#1c0704" rx="3"/>
+  <rect x="195" y="180" width="35" height="35" fill="#1c0704" rx="3"/>
+  <rect x="240" y="190" width="30" height="40" fill="#1c0704" rx="3"/>
+
+  <rect x="115" y="245" width="35" height="25" fill="#1c0704" rx="3"/>
+  <rect x="160" y="230" width="25" height="40" fill="#1c0704" rx="3"/>
+  <rect x="195" y="225" width="30" height="45" fill="#1c0704" rx="3"/>
+  <rect x="235" y="240" width="35" height="30" fill="#1c0704" rx="3"/>
+  
+  <text x="150" y="288" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1c0704">UPI: bihariorchestra@upi</text>
+</svg>
