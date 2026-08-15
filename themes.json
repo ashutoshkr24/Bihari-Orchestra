@@ -1,9 +1,0 @@
-﻿{
-  "options": [
-    { "id": "stage", "emoji": "🎪", "label": "स्टेज ऑर्केस्ट्रा (Live Stage)", "path": "#stage" },
-    { "id": "chopal", "emoji": "🏮", "label": "गाँव की चौपाल (Village Chopal)", "path": "#chopal" },
-    { "id": "cassette", "emoji": "📻", "label": "टी-सीरीज़ कैसेट (Retro Cassette)", "path": "#cassette" },
-    { "id": "bhikhari", "emoji": "🪕", "label": "भिखारी ठाकुर मंच (Bhikhari Thakur)", "path": "#bhikhari" },
-    { "id": "shaadi", "emoji": "🪗", "label": "देहाती शादी बारात (Wedding Night)", "path": "#shaadi" }
-  ]
-}
