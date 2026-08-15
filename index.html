@@ -1,0 +1,385 @@
+﻿<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="google" content="notranslate">
+
+  <!-- Primary SEO Meta Tags -->
+  <title>बिहारी ऑर्केस्ट्रा | Bihari Orchestra – 2000s Bhojpuri Retro Ambient Radio</title>
+  <meta name="title" content="बिहारी ऑर्केस्ट्रा | Bihari Orchestra – Retro Bhojpuri Folk & Stage Radio">
+  <meta name="description" content="बिहारी ऑर्केस्ट्रा (Bihari Orchestra) is a free retro ambient radio celebrating authentic Bhojpuri folk music, Bhikhari Thakur stage theatre, and nostalgic village orchestra nights.">
+  <meta name="keywords" content="Bihari Orchestra, bihari orchestra website, bhojpuri orchestra, bhikhari thakur, bidesiya, bhojpuri retro radio, pawan singh stage songs, sharda sinha folk geet, launda nach, bihar folk radio">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Bihari Orchestra">
+  <meta name="theme-color" content="#120806">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bihariorchestra.in/">
+  <meta property="og:site_name" content="Bihari Orchestra">
+  <meta property="og:locale" content="hi_IN">
+  <meta property="og:title" content="बिहारी ऑर्केस्ट्रा — आँखों के सामने, दिल के पास">
+  <meta property="og:description" content="Free ambient radio celebrating the golden era of Bhojpuri stage orchestra, harmonium-dholak nights, and Bhikhari Thakur folk melodies.">
+  <meta property="og:image" content="img/hero-bg.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="बिहारी ऑर्केस्ट्रा — Bhojpuri Retro Ambient Radio">
+  <meta name="twitter:description" content="Nostalgic Bhojpuri orchestra radio streaming 24/7 in your browser. No app, no login.">
+  <meta name="twitter:image" content="img/hero-bg.jpg">
+
+  <link rel="icon" type="image/svg+xml" href="img/qr.svg">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          screens: { 'xs': '420px' },
+          colors: {
+            amber: { 350: '#f5a524', 450: '#e68a00' },
+            saffron: { 500: '#ea580c', 600: '#c2410c' }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "बिहारी ऑर्केस्ट्रा (Bihari Orchestra)",
+    "alternateName": ["Bihari Orchestra", "Bhojpuri Orchestra Radio", "बिहारी आर्केस्ट्रा"],
+    "url": "https://bihariorchestra.in/",
+    "inLanguage": ["hi-IN", "bho-IN", "en-IN"],
+    "description": "Bihari Orchestra is a free retro ambient radio website recreating the magical night atmosphere of rural Bhojpuri stage orchestra, dholak-harmonium performances, and folk traditions.",
+    "potentialAction": {
+      "@type": "ListenAction",
+      "target": "https://bihariorchestra.in/"
+    }
+  }
+  </script>
+</head>
+<body class="bg-[#120806] text-white selection:bg-amber-500/40">
+
+  <a href="#about" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:bg-amber-500 focus:text-black focus:px-4 focus:py-2 focus:rounded-full">Skip to content</a>
+
+  <!-- HIDDEN ACTIVE YOUTUBE AUDIO PLAYER BRIDGE -->
+  <div class="fixed bottom-1 left-1 w-10 h-10 overflow-hidden opacity-20 pointer-events-none z-0">
+    <div id="youtubeBridge"></div>
+  </div>
+
+  <!-- ================================================================= -->
+  <!-- HERO SECTION: Full-screen Stage Scene + Retro Player             -->
+  <!-- ================================================================= -->
+  <section class="relative w-full h-[100svh] overflow-hidden select-none">
+
+    <!-- HERO BACKGROUND IMAGE & AMBIENT GLOW -->
+    <div class="absolute inset-0 w-full h-full pointer-events-none z-0 overflow-hidden bg-[#120806]">
+      <img id="customBgImage" src="img/hero-bg.jpg" alt="बिहारी ऑर्केस्ट्रा - संगीत और नृत्य stage background" class="w-full h-full object-cover object-center transform scale-100 transition-transform duration-1000 ease-out" />
+      
+      <!-- Top festive garland & fairy lights overlay -->
+      <div class="absolute top-0 left-0 right-0 h-8 fairy-string opacity-70 pointer-events-none"></div>
+
+      <!-- Vignette and Dark Overlays for maximum text contrast -->
+      <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 to-black/60 pointer-events-none"></div>
+      <div class="absolute inset-0 bg-gradient-to-b from-black/50 via-transparent to-black/85 pointer-events-none"></div>
+      <div class="absolute inset-0 bg-radial-gradient pointer-events-none" style="background: radial-gradient(circle at center, transparent 35%, rgba(18, 8, 6, 0.75) 100%);"></div>
+    </div>
+
+    <!-- TOP HEADER NAVIGATION -->
+    <header class="absolute top-2 sm:top-4 left-0 right-0 z-20 px-3 sm:px-6 flex items-center justify-between gap-2 max-w-7xl mx-auto">
+      <div class="flex items-center gap-2 sm:gap-3">
+        <!-- Live Listeners Badge -->
+        <div class="relative flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-black/55 backdrop-blur-xl border border-amber-500/25 text-[11px] font-medium text-emerald-400 shadow-xl">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping shrink-0"></span>
+          <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0 absolute left-[15px]"></span>
+          <span id="onlineCount" class="text-white/95 font-mono font-bold ml-1">1,284</span>
+          <span class="text-white/60 text-[10px]">श्रोता लाइव</span>
+        </div>
+
+        <!-- Scene / Theme Selector -->
+        <div class="theme-select-wrap pointer-events-auto w-40 sm:w-52">
+          <select id="themeSelect" aria-label="बदलो मंच (Choose Stage Theme)" class="theme-select w-full"></select>
+          <svg class="theme-select-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </div>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav aria-label="Primary" class="flex items-center gap-2 overflow-x-auto max-w-full py-0.5 pointer-events-auto">
+        <a href="#about" class="hidden sm:inline-flex items-center px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-xl border border-white/20 text-xs text-white font-medium transition-all hover:scale-105 active:scale-95 shadow-lg shrink-0">परिचय</a>
+        
+        <a href="#faq" class="hidden sm:inline-flex items-center px-3.5 py-1.5 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-xl border border-white/20 text-xs text-white font-medium transition-all hover:scale-105 active:scale-95 shadow-lg shrink-0">सवाल-जवाब</a>
+        <button id="supportBtn" type="button" class="flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-gradient-to-r from-amber-500/25 to-saffron-500/35 hover:from-amber-500/40 hover:to-saffron-500/50 backdrop-blur-xl border border-amber-400/40 text-xs text-amber-200 hover:text-white font-semibold transition-all hover:scale-105 active:scale-95 shadow-lg shrink-0">
+          <span aria-hidden="true">❤️</span>
+          <span class="inline">सहयोग (Support)</span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- HERO MAIN CENTER CONTENT -->
+    <main class="absolute inset-0 z-10 flex flex-col items-center justify-between pt-16 pb-4 sm:pt-20 sm:pb-6 px-3 sm:px-6 pointer-events-none">
+
+      <!-- Grand Hindi Typography Title -->
+      <div class="pointer-events-auto text-center mt-6 xs:mt-8 sm:mt-2 sm:mb-1">
+        <h1 id="heroMainTitle" class="font-hindi text-6xl xs:text-7xl sm:text-8xl md:text-9xl lg:text-[8.5rem] font-extrabold tracking-wide text-white leading-[0.88] glow-title">
+          बिहारी<br>ऑर्केस्ट्रा
+        </h1>
+        <p class="font-serif-vintage text-xs xs:text-sm sm:text-base text-amber-300/90 font-medium tracking-wide mt-2 drop-shadow-md">
+          आँखों के सामने, दिल के पास — भोजपुरी संस्कृति और लोक संगीत का उत्सव
+        </p>
+      </div>
+
+      <!-- Player Controls, WhatsApp banner & Soundboard Container -->
+      <div class="w-full max-w-md xs:max-w-lg sm:max-w-2xl flex flex-col items-center gap-2.5 sm:gap-3.5 mt-auto mb-6 xs:mb-8 sm:my-auto">
+
+        <!-- WHATSAPP COMMUNITY JOIN TAB -->
+        <a id="whatsappJoinTab" href="https://chat.whatsapp.com/" target="_blank" rel="noopener noreferrer" class="order-0 pointer-events-auto relative w-full max-w-xs xs:max-w-sm sm:max-w-md px-3.5 py-2 sm:px-4 sm:py-2.5 rounded-2xl bg-[#1e110a]/85 backdrop-blur-2xl border border-emerald-500/35 hover:border-emerald-400/80 transition-all duration-300 shadow-[0_12px_35px_rgba(0,0,0,0.85)] flex items-center justify-between gap-2.5 group text-left overflow-hidden hover:bg-[#25150d]/90 hover:scale-[1.02] active:scale-[0.99]">
+          <div class="absolute left-0 top-0 bottom-0 w-1.5 bg-[#25D366] rounded-l-2xl"></div>
+          <div class="flex items-center gap-2.5 min-w-0 pl-1">
+            <div class="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-[#25D366] flex items-center justify-center text-white shrink-0 shadow-md shadow-emerald-950/40 group-hover:scale-105 transition-transform">
+              <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+              </svg>
+            </div>
+            <div class="min-w-0 flex-1">
+              <div class="text-white font-bold text-xs sm:text-[13px] tracking-tight truncate">
+                ऑर्केस्ट्रा टोली से जुड़ें
+              </div>
+              <div class="text-white/70 text-[10px] sm:text-[11px] truncate">
+                हर नए लोकगीत व स्टेज शो की अपडेट्स पाएँ
+              </div>
+            </div>
+          </div>
+          <div class="px-3 py-1 rounded-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold text-xs shrink-0 shadow-md shadow-emerald-950/30 group-hover:scale-105 transition-all">
+            Join Free
+          </div>
+        </a>
+
+        <!-- FLOATING RETRO MUSIC PLAYER -->
+        <section class="music-player order-1 pointer-events-auto" aria-label="Bihari Orchestra Music Player">
+          <button class="music-cover-frame" id="coverButton" type="button" aria-label="Play from vinyl disc">
+            <div class="music-cover" id="coverDisc" style="background-image: url('img/hero-bg.jpg');"></div>
+            <span class="music-cover-hole" aria-hidden="true"></span>
+          </button>
+
+          <div class="track-block">
+            <div class="track-top">
+              <div class="track-name" id="trackName">लालीपाप लागेलू (Lollipop Lagelu)</div>
+            </div>
+            <p class="station" id="stationSubtitle">पवन सिंह • स्टेज ऑर्केस्ट्रा स्पेशल</p>
+            <div class="progress-row">
+              <span id="timeNow">0:00</span>
+              <div class="progress" id="progressBar" role="slider" aria-label="Track progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
+                <div class="progress-fill" id="progressFill"></div>
+              </div>
+              <span id="timeTotal">4:14</span>
+            </div>
+          </div>
+
+          <div class="player-actions">
+            <button class="icon-button" id="prevButton" type="button" aria-label="Previous track">
+              <svg viewBox="0 0 24 24" class="w-4 h-4 fill-current" aria-hidden="true"><path d="m19 20-9-8 9-8v16Z"></path><path d="M5 19V5"></path></svg>
+            </button>
+            <button class="icon-button play-button" id="playButton" type="button" aria-label="Play music">
+              <svg id="playIcon" viewBox="0 0 24 24" class="w-5 h-5 fill-current" aria-hidden="true"><path d="M8 5v14l11-7-11-7Z"></path></svg>
+            </button>
+            <button class="icon-button" id="nextButton" type="button" aria-label="Next track">
+              <svg viewBox="0 0 24 24" class="w-4 h-4 fill-current" aria-hidden="true"><path d="m5 4 9 8-9 8V4Z"></path><path d="M19 5v14"></path></svg>
+            </button>
+          </div>
+        </section>
+
+
+
+        <footer class="order-3 pointer-events-auto text-[10px] sm:text-xs text-amber-200/50 tracking-widest font-mono mt-0.5">
+          सदाबहार भोजपुरी लोक संगीत · LIVE 24x7
+        </footer>
+      </div>
+
+      <!-- SCROLL CUE -->
+      <a href="#about" aria-label="Scroll to discover Bihari Orchestra heritage" class="scroll-cue pointer-events-auto hidden sm:flex absolute bottom-3 left-1/2 -translate-x-1/2 flex-col items-center gap-1 text-amber-300/60 hover:text-amber-300 transition-colors">
+        <span class="text-[10px] tracking-[0.25em] uppercase font-semibold">मंच परिचय (Scroll)</span>
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </a>
+    </main>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- MARQUEE LYRICS & CONCERT TICKER                                    -->
+  <!-- ================================================================= -->
+  <div class="w-full bg-[#180704] border-y border-amber-500/20 py-2.5 marquee-container text-xs font-hindi text-amber-300/85">
+    <div class="marquee-content space-x-8">
+      <span>🪕 "सुगना रे सुगना, जाई के कहिहऽ संदेशवा..."</span>
+      <span>•</span>
+      <span>🎪 "हारमोनियम के सुर, ढोलक के ताल, रात भर चले ऑर्केस्ट्रा कमाल!"</span>
+      <span>•</span>
+      <span>🪗 "कमरिया डोले हे राजा जी, स्टेज पर रंग बरसे!"</span>
+      <span>•</span>
+      <span>🏮 "भिखारी ठाकुर के बिदेसिया से लेके पवन-खेसारी के मंच तक!"</span>
+      <span>•</span>
+      <span>🪕 "सुगना रे सुगना, जाई के कहिहऽ संदेशवा..."</span>
+      <span>•</span>
+      <span>🎪 "हारमोनियम के सुर, ढोलक के ताल, रात भर चले ऑर्केस्ट्रा कमाल!"</span>
+    </div>
+  </div>
+
+  <!-- ================================================================= -->
+  <!-- ABOUT SECTION: Story, Bhikhari Thakur Heritage & Highlights       -->
+  <!-- ================================================================= -->
+  <section id="about" class="relative bg-[#1a0704] border-t border-amber-500/10 px-5 sm:px-8 py-16 sm:py-24">
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="text-amber-400 text-xs tracking-[0.3em] uppercase font-semibold mb-3">भोजपुरी लोक संस्कृति का दर्पण</p>
+      <h2 class="font-display text-3xl sm:text-5xl text-white mb-6">बिहारी ऑर्केस्ट्रा — रात भर चलने वाला सुरमयी मेला</h2>
+      <p class="text-white/75 leading-relaxed text-sm sm:text-base font-serif-vintage">
+        <strong class="text-amber-300">बिहारी ऑर्केस्ट्रा (Bihari Orchestra)</strong> बिहार और पूर्वी उत्तर प्रदेश के उन सुनहरे पलों की पुनर्स्थापना है, जहाँ गाँव के मेले, शादी-ब्याह और छठ-दशहरा की रातों में चमचमाती रंग-बिरंगी झालरों के नीचे लकड़ी का तख्त बिछता था। हारमोनियम की पहली धुन, ढोलक की गमकती थाप, झाल की झंकार और घुँघरू बाँधकर मंच पर उतरने वाले कलाकारों की अदाकारी दिल को छू लेती थी।
+      </p>
+      <p class="text-white/70 leading-relaxed text-sm sm:text-base font-serif-vintage mt-4">
+        यह मंच केवल गीतों का संग्रह नहीं, बल्कि <em>भोजपुरी के शेक्सपियर कहे जाने वाले 'भिखारी ठाकुर'</em>, महेंदर मिसिर, शारदा सिन्हा और पारम्परिक लोकगायकों की अमर विरासत का जीवंत उत्सव है।
+      </p>
+    </div>
+
+    <!-- 3 Core Feature Cards -->
+    <div class="max-w-5xl mx-auto grid sm:grid-cols-3 gap-5 sm:gap-6 mt-14">
+      <div class="rounded-2xl bg-white/[0.04] border border-amber-500/20 p-6 text-left hover:border-amber-500/50 transition-all hover:-translate-y-1 shadow-lg">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center mb-4 text-2xl" aria-hidden="true">
+          🪗
+        </div>
+        <h3 class="text-white font-semibold text-lg mb-2 font-hindi">सदाबहार स्टेज ऑर्केस्ट्रा</h3>
+        <p class="text-white/60 text-sm leading-relaxed">2000s के मशहूर स्टेज प्रोग्राम्स, नॉन-स्टॉप डांस नंबर और देहाती धुनों का चुनिंदा संग्रह जो आपके दिन को ताजगी से भर दे।</p>
+      </div>
+
+      <div class="rounded-2xl bg-white/[0.04] border border-amber-500/20 p-6 text-left hover:border-amber-500/50 transition-all hover:-translate-y-1 shadow-lg">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center mb-4 text-2xl" aria-hidden="true">
+          🎭
+        </div>
+        <h3 class="text-white font-semibold text-lg mb-2 font-hindi">भिखारी ठाकुर व लोक परंपरा</h3>
+        <p class="text-white/60 text-sm leading-relaxed">बिदेसिया, गबरघिचोर, बेटी वियोग और निर्गुण-कजरी के अमर भाव, जो भोजपुरी माटी की सच्ची आत्मा को व्यक्त करते हैं।</p>
+      </div>
+
+      <div class="rounded-2xl bg-white/[0.04] border border-amber-500/20 p-6 text-left hover:border-amber-500/50 transition-all hover:-translate-y-1 shadow-lg">
+        <div class="w-12 h-12 rounded-2xl bg-amber-500/15 border border-amber-500/30 flex items-center justify-center mb-4 text-2xl" aria-hidden="true">
+          📻
+        </div>
+        <h3 class="text-white font-semibold text-lg mb-2 font-hindi">मुफ़्त और सदा उपलब्ध</h3>
+        <p class="text-white/60 text-sm leading-relaxed">बिना किसी ऐप, बिना लॉगिन, सीधे अपने मोबाइल या कंप्यूटर के ब्राउज़र में 24 घंटे लाइव देसी संगीत का आनंद लें।</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- FAQ SECTION: Frequently Asked Questions                          -->
+  <!-- ================================================================= -->
+  <section id="faq" class="relative bg-[#120806] px-5 sm:px-8 py-16 sm:py-24 border-t border-white/5">
+    <div class="max-w-2xl mx-auto">
+      <p class="text-amber-400 text-xs tracking-[0.3em] uppercase font-semibold mb-3 text-center">प्रश्नोत्तरी</p>
+      <h2 class="font-display text-3xl sm:text-4xl text-white mb-10 text-center font-hindi">बिहारी ऑर्केस्ट्रा के बारे में सब कुछ</h2>
+
+      <div class="space-y-3.5">
+        <details class="faq-item group rounded-xl bg-white/5 border border-amber-500/15 p-4 sm:p-5" open>
+          <summary class="flex items-center justify-between cursor-pointer text-white font-medium text-sm sm:text-base list-none">
+            <span class="font-hindi font-semibold text-amber-200">बिहारी ऑर्केस्ट्रा क्या है?</span>
+            <svg class="faq-chevron w-4 h-4 text-amber-400 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </summary>
+          <p class="text-white/65 text-sm mt-3 leading-relaxed font-serif-vintage">
+            बिहारी ऑर्केस्ट्रा एक मुफ़्त डिजिटल संगीत मंच है जो 90s और 2000s के ग्रामीण भोजपुरी स्टेज शोज़, लोकगीतों, हारमोनियम-ढोलक की संगत और पारंपरिक कला को एक आधुनिक, इंटरएक्टिव रेडियो के रूप में प्रस्तुत करता है।
+          </p>
+        </details>
+
+        <details class="faq-item group rounded-xl bg-white/5 border border-amber-500/15 p-4 sm:p-5">
+          <summary class="flex items-center justify-between cursor-pointer text-white font-medium text-sm sm:text-base list-none">
+            <span class="font-hindi font-semibold text-amber-200">क्या यह वेबसाइट सुनने के लिए पूरी तरह मुफ़्त है?</span>
+            <svg class="faq-chevron w-4 h-4 text-amber-400 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </summary>
+          <p class="text-white/65 text-sm mt-3 leading-relaxed font-serif-vintage">
+            हाँ! बिहारी ऑर्केस्ट्रा पूरी तरह से मुफ़्त है। आपको किसी भी तरह का रजिस्ट्रेशन, साइन-अप या मोबाइल ऐप डाउनलोड करने की आवश्यकता नहीं है। बस 'Play' बटन दबाएँ और आनंद लें।
+          </p>
+        </details>
+
+        <details class="faq-item group rounded-xl bg-white/5 border border-amber-500/15 p-4 sm:p-5">
+          <summary class="flex items-center justify-between cursor-pointer text-white font-medium text-sm sm:text-base list-none">
+            <span class="font-hindi font-semibold text-amber-200">यहाँ किस तरह के गाने और प्रस्तुतियाँ बजती हैं?</span>
+            <svg class="faq-chevron w-4 h-4 text-amber-400 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </summary>
+          <p class="text-white/65 text-sm mt-3 leading-relaxed font-serif-vintage">
+            यहाँ भिखारी ठाकुर के नाटक (बिदेसिया, गबरघिचोर), शारदा सिन्हा के पारम्परिक लोकगीत, पवन सिंह, मनोज तिवारी, खेसारी लाल यादव और भरत शर्मा व्यास के क्लासिक स्टेज ऑर्केस्ट्रा गानों की चुनिंदा प्लेलिस्ट बजती है।
+          </p>
+        </details>
+
+        <details class="faq-item group rounded-xl bg-white/5 border border-amber-500/15 p-4 sm:p-5">
+          <summary class="flex items-center justify-between cursor-pointer text-white font-medium text-sm sm:text-base list-none">
+            <span class="font-hindi font-semibold text-amber-200">क्या मैं अपने पसंदीदा गाने का सुझाव दे सकता हूँ?</span>
+            <svg class="faq-chevron w-4 h-4 text-amber-400 transition-transform" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+          </summary>
+          <p class="text-white/65 text-sm mt-3 leading-relaxed font-serif-vintage">
+            बिल्कुल! आप ऊपर दिए गए 'WhatsApp' बटन से हमारी कम्युनिटी से जुड़कर या नीचे दिए गए ईमेल पर अपने पसंदीदा लोकगीत और ऑर्केस्ट्रा ट्रैक भेज सकते हैं।
+          </p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================= -->
+  <!-- FOOTER                                                            -->
+  <!-- ================================================================= -->
+  <footer class="bg-[#0d0403] border-t border-amber-500/20 px-5 sm:px-8 py-10 text-center">
+    <p class="font-hindi text-2xl text-amber-300 font-bold mb-1">बिहारी ऑर्केस्ट्रा</p>
+    <p class="text-white/50 text-xs font-serif-vintage">Bihari Orchestra · bihariorchestra.in · 2000s Bhojpuri Retro Ambient Radio</p>
+    
+    <!-- Social & Community Links -->
+    <div class="flex items-center justify-center gap-4 mt-6">
+      <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" aria-label="Bihari Orchestra on WhatsApp" class="w-10 h-10 rounded-full bg-emerald-500/15 hover:bg-emerald-500/30 border border-emerald-500/30 flex items-center justify-center text-emerald-400 hover:text-emerald-300 transition-all hover:scale-110">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+      </a>
+      <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" aria-label="Bihari Orchestra on YouTube" class="w-10 h-10 rounded-full bg-red-500/15 hover:bg-red-500/30 border border-red-500/30 flex items-center justify-center text-red-400 hover:text-red-300 transition-all hover:scale-110">
+        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0zm0 19.2c-3.96 0-7.2-3.24-7.2-7.2S8.04 4.8 12 4.8s7.2 3.24 7.2 7.2-3.24 7.2-7.2 7.2zm0-11.4c-2.32 0-4.2 1.88-4.2 4.2s1.88 4.2 4.2 4.2 4.2-1.88 4.2-4.2-1.88-4.2-4.2-4.2zm-1.2 6.3V9.9l3.6 2.1-3.6 2.1z"/></svg>
+      </a>
+    </div>
+
+    <p class="text-white/40 text-xs mt-6 font-mono">संपर्क / Contact: stage@bihariorchestra.in</p>
+    <p class="text-white/25 text-[11px] mt-2 font-mono">Made with ❤️ for Bhojpuri Folk & Cultural Nostalgia</p>
+  </footer>
+
+  <!-- ================================================================= -->
+  <!-- SUPPORT MODAL (POPUP)                                             -->
+  <!-- ================================================================= -->
+  <div id="supportModal" class="support-modal fixed inset-0 z-50 p-4 bg-black/80 backdrop-blur-md" role="dialog" aria-modal="true" aria-labelledby="supportModalTitle">
+    <div class="relative w-[92vw] h-[85vh] max-w-lg max-h-[720px] bg-[#1c0704] border border-amber-500/40 rounded-3xl shadow-[0_25px_60px_rgba(0,0,0,0.9)] p-6 sm:p-8 flex flex-col items-center justify-center text-center overflow-y-auto">
+      <button id="supportModalClose" type="button" aria-label="Close modal" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-white/10 hover:bg-white/20 text-white/70 hover:text-white text-xl flex items-center justify-center transition-colors">&times;</button>
+      
+      <div class="w-12 h-12 rounded-full bg-amber-500/20 border border-amber-500/40 flex items-center justify-center text-2xl mb-3">
+        ❤️
+      </div>
+      <h2 id="supportModalTitle" class="text-2xl sm:text-3xl font-bold font-hindi text-white mb-2">बिहारी ऑर्केस्ट्रा को सहयोग दें</h2>
+      <p class="text-white/75 text-xs sm:text-sm leading-relaxed mb-4 font-serif-vintage max-w-sm">
+        हज़ारों संगीत प्रेमी यहाँ आकर लोकधुनों का आनंद लेते हैं। सर्वर खर्च और वेबसाइट को हमेशा मुफ़्त व विज्ञापन-मुक्त रखने के लिए अपनी स्वेच्छा से कोई भी राशि सहयोग में भेजें।
+      </p>
+
+      <!-- QR Code Image -->
+      <img id="qrImage" src="img/qr.svg" alt="UPI QR Code to support Bihari Orchestra" class="w-56 h-56 object-contain rounded-2xl border border-amber-500/30 bg-white p-2 shadow-2xl" />
+
+      <a id="qrDownloadBtn" href="img/qr.svg" download="bihari-orchestra-support-qr.svg" class="mt-5 inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-400 hover:to-amber-300 text-black font-bold text-xs sm:text-sm shadow-lg shadow-amber-900/40 transition-all hover:scale-105 active:scale-95">
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14"/></svg>
+        QR कोड डाउनलोड करें
+      </a>
+      <p class="text-amber-200/50 text-[11px] mt-2 font-mono">Scan via Google Pay / PhonePe / Paytm / BHIM UPI</p>
+    </div>
+  </div>
+
+  <!-- YOUTUBE IFRAME API & APP LOGIC -->
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
+
+
