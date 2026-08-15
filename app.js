@@ -101,11 +101,11 @@ function startClientFallbackInterval() {
 }
 
 // ----------------------------------------------------
-// Local Songs Dynamic Fetcher (/api/songs)
+// Local Songs Dynamic Fetcher (/songs.json)
 // ----------------------------------------------------
 async function fetchLocalSongs() {
   try {
-    const res = await fetch('/api/songs', { cache: 'no-store' });
+    const res = await fetch('/songs.json', { cache: 'no-store' });
     if (res.ok) {
       const data = await res.json();
       if (Array.isArray(data) && data.length > 0) {
@@ -122,7 +122,7 @@ async function fetchLocalSongs() {
       }
     } else {
       playlist = [];
-      console.log('Could not reach /api/songs — no songs loaded.');
+      console.log('Could not reach /songs.json — no songs loaded.');
     }
   } catch (err) {
     playlist = [];
